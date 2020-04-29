@@ -40,7 +40,7 @@ func (ml *MigrationLogger) Verbose() bool {
 var db *sql.DB
 var err error
 func main() {
-	db ,err = sql.Open("mysql", "shubham1010:#Dontknow1010@/demo")
+	db ,err = sql.Open("mysql", "satish:#Ss77@/demo")
 
 
 	if err != nil {

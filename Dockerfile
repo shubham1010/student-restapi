@@ -18,9 +18,9 @@ FROM mariadb:10.3
 
 WORKDIR /root
 ENV MYSQL_ROOT_PASSWORD root
-ENV MYSQL_USER shubham1010
-ENV MYSQ_PASSWORD #Dontknow1010
-ENV MYSQ_DATABASE demo
+ENV MYSQL_USER satish
+ENV MYSQL_PASSWORD #Ss77
+ENV MYSQL_DATABASE demo
 
 COPY migrations /root/migrations
 COPY databaseConfig /root/databaseConfig
