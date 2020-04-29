@@ -1,4 +1,4 @@
-# This is a students restapi built using golang as backend and mariadb as database.
+# This is a students restapi built using golang as backend and mysql(mariadb) as database.
 
 ## APIs
 
@@ -10,16 +10,21 @@
 
 
 ## POSTMAN INSTRUCTIONS:
-### FOR INSERTION OF DATA SEND JSON FORMAT AS BELOW => POST METHOD
+### FOR INSERTION OF DATA SEND JSON FORMAT IN THE BODY PART OF AS BELOW => POST METHOD:
 
 {"id": "18143", "name": "Satish Sangam","age": "22", "dept": "Comp Scie", "subject": ["Formal Method-II","DevOps"]}
 
 ### FOR UPDATION OF DATA SEND JSON FORMAT AS BELOW===> UPDATE METHOD
-{"id": "existing id", "name": "newname","age": "23", "dept": "updated value", "subject": ["Formal Method-II","DevOps","newsubject"]}
+{"id": "existing id", "name": "WantToUpdate","age": "WantToUpdate", "dept": "WantToupdate", "subject": ["Formal Method-II","DevOps","WantToUpdate"]}
+
+WantToUpdate => is new values which you want to update.
 
 
-### HOW TO RUN PROJECT
+### DEPENDENCY:
+1) Docker
+
+### HOW TO RUN PROJECT?
 ##### 1) You just clone or download the project into you host machine.
 ##### 2) Change the mode of run.sh file by using command ===> chmod +x run.sh
-##### 3) Run command ./run.sh
-##### 4) When you get one prompt then just run ./startup.sh
+##### 3) Execute command ./run.sh
+##### 4) When you get one prompt then just execute ./startup.sh
