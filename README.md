@@ -21,5 +21,5 @@
 ### HOW TO RUN PROJECT
 ##### 1) You just clone or download the project into you host machine.
 ##### 2) Change the mode of run.sh file by using command ===> chmod +x run.sh
-#### 3) Run command ./run.sh
-#### 4) When you get one prompt then just run ./startup.sh
+##### 3) Run command ./run.sh
+##### 4) When you get one prompt then just run ./startup.sh
