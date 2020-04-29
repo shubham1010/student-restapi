@@ -12,7 +12,7 @@
 ## POSTMAN INSTRUCTIONS:
 ### FOR INSERTION OF DATA SEND JSON FORMAT IN THE BODY PART OF AS BELOW => POST METHOD:
 
-{"id": "18143", "name": "Satish Sangam","age": "22", "dept": "Comp Scie", "subject": ["Formal Method-II","DevOps"]}
+{"id": "18116", "name": "Shubham Jagdhane","age": "22", "dept": "Comp Scie", "subject": ["Formal Method-II","DevOps"]}
 
 ### FOR UPDATION OF DATA SEND JSON FORMAT AS BELOW===> UPDATE METHOD
 {"id": "existing id", "name": "WantToUpdate","age": "WantToUpdate", "dept": "WantToupdate", "subject": ["Formal Method-II","DevOps","WantToUpdate"]}

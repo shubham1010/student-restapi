@@ -1,6 +1,6 @@
 FROM golang:alpine as builder
 
-LABEL maintainer = "Satish Sangam"
+LABEL maintainer = "Shubham Jagdhane"
 
 RUN apk update && apk add --no-cache git
 
@@ -18,8 +18,8 @@ FROM mariadb:10.3
 
 WORKDIR /root
 ENV MYSQL_ROOT_PASSWORD root
-ENV MYSQL_USER satish
-ENV MYSQL_PASSWORD #Ss77
+ENV MYSQL_USER shubham
+ENV MYSQL_PASSWORD #Sj1010
 ENV MYSQL_DATABASE demo
 
 COPY migrations /root/migrations
